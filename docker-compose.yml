@@ -1,0 +1,9 @@
+services:
+  ui:
+    container_name: ui-learnjs
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+networks:
+  default:
+    driver: bridge
