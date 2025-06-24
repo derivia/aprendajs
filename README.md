@@ -3,8 +3,8 @@
 ## Tabela de Conteúdos:
 
 - [Stack](#stack)
-- [Configuração](#configuracao)
-- [Licença](#licenca)
+- [Configuração](#configuração)
+- [Licença](#licença)
 
 ## Stack
 
