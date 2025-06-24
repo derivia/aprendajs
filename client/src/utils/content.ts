@@ -4,7 +4,7 @@ export interface PageContent {
 
 export const getContent = async (slug: string): Promise<PageContent> => {
 	try {
-		const response = await fetch(`/src/content/${slug}.md`);
+		const response = await fetch(`/content/${slug}.md`);
 		if (!response.ok) {
 			throw new Error(`Content for ${slug} not found`);
 		}
